@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package perpustakaanxyz;
 
-/**
- *
- * @author Hafizh
- */
 public class TransaksiPeminjaman{
     public AnggotaPerpustakaan anggota;
     public Buku buku;
@@ -21,7 +12,6 @@ public class TransaksiPeminjaman{
     }
 
     public void displayInfo() {
-//        String tanggalPinjam = new Date().toString();
         System.out.println("Transaksi Peminjaman:");
         System.out.println("Nama\t\t\t: " + anggota.getNama());
         System.out.println("Buku\t\t\t: " + buku.getJudul()+"");
